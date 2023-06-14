@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+main{
+    height: 1600px;
+  }
+header{
+    position: relative;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    height:85px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 0.5px solid #E2E1E1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+logo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    margin-left: 200px;
+}
+section{
+    width:700px;
+    height: 600px;
+    position: relative;
+    margin-right: 0px;
+}
+.image{
+    position: absolute; 
+    left: 43%;
+    top:15%;
+    border-radius: 20px;
+}
+aside{
+    position: relative;
+    width:640px;
+    height: 700px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+}
+quote{
+    position: absolute; 
+    top:28%;
+    right:40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 77px;
+    height:300px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+article{
+    position: relative;
+    height:400px;
+    left: 16%;
+    width:80%;
+    top: 13%;
+}
+#fname{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    font-size: 30px;
+}
+#age{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-size: 30px;
+}
+#email{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    font-size: 30px;
+}
+#username{
+    position: absolute;
+    top: 260px;
+    left: 0;
+    font-size: 30px;
+}
+#password{
+    position: absolute;
+    top: 380px;
+    left: 0;
+    font-size: 30px;
+}
+#regButton{
+    width: 497px;
+    height: 84px;
+    position: absolute;
+    top: 450px;
+    left: -340px;
+    background: #C1C1C1;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    font-size: 30px;
+}
+a{
+    font-size: 20px;
+    position: relative;
+    left:50%;
+    top:-25px;
+    font-weight: 300;
+}
+input{
+    position: absolute;
+    width: 990px;
+    height: 60px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    margin:30px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #5B5B5B;
+    text-align: center;
+    color:white;
+}
+.form{
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .form label {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #555;
+        pointer-events: none;
+        transition: 0.2s ease-out;
+    }
+
+    .form input:focus + label,
+    .form input:valid + label {
+        top: -12px;
+        font-size: 12px;
+        color: #333;
+    }
+
+    .form input {
+        padding: 10px;
+        width: 200px;
+        font-size: 16px;
+    }
+
